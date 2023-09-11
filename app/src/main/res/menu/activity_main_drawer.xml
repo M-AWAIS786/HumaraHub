@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_app"
+            android:icon="@drawable/mainmyapp"
+            android:title="My Hub"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/ordermain"
+            android:title="My Orders"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/cartmainblack"
+            android:title="My Cart"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@drawable/heart"
+            android:title="My WishList"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/usermain"
+            android:title="My Account"
+            android:menuCategory="secondary"
+            />
+    </group>
+    <item
+        android:id="@+id/nav_my_signout"
+        android:icon="@drawable/signout"
+        android:title="Sign Out"
+        android:menuCategory="secondary"
+        />
+</menu>
